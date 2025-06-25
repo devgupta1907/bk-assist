@@ -1,0 +1,8 @@
+__pycache__
+env/
+.env
+faq_index_old.pkl
+faq_index.pkl
+faq.json
+index.py
+terminal.py
