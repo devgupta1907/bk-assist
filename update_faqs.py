@@ -40,4 +40,4 @@ def append_new_faqs(json_path):
 
 
 if __name__ == "__main__":
-    append_new_faqs("data/faq2.json")
+    append_new_faqs("data/faq3.json")
