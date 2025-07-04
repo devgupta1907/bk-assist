@@ -1,0 +1,56 @@
+[
+    {
+        "question": "I'm getting an 'Office not detected' error while generating the GSTR-1 report. How can I fix this?",
+        "answer": "Please follow the steps below to resolve the issue:\n\n1. Check Office Location Settings:\n   - Go to the Dashboard\n   - Click on Settings > Windows Specific Settings > Book Keeper Default Location > For B.K Folder > Select App Data,\nIf the above mentioned step does not resolve the issue, then follow these steps:\n2. Repair Microsoft Office:\n   - Open Control Panel > Uninstall a Program\n   - Select Microsoft Office\n   - Click Change and choose the Repair option\n\n3. Update Your Windows OS:\n   - If you're not using Windows 10 or Windows 11, please upgrade your system\n   - If you're already on Windows 10 or 11, make sure your system is up to date\n\nIf the issue still persists, feel free to reach out to our support team."
+    },
+    {
+        "question": "While creating an invoice in Book Keeper, it's showing an older/previous/last transaction date. How can I set the current date automatically?",
+        "answer": "To ensure the invoice uses the current date by default, follow these steps:\n\n1. Go to the Dashboard\n2. Click on Settings > Transaction Settings > Date & Rate\n3. Enable the option “Use Current Date”\n\nThis will automatically set today’s date whenever you create a new invoice."
+    },
+    {
+        "question": "How can I run Book Keeper software on Windows 7? I'm getting an error while using it.",
+        "answer": "Book Keeper is not guaranteed to work properly on Windows 7, as Microsoft has officially ended support and services for Windows 7. This can lead to compatibility issues, missing updates, or other unexpected errors.\n\nTo ensure the software runs smoothly and securely, we strongly recommend upgrading to Windows 10 or Windows 11."
+
+    },
+    {
+        "question": "I'm getting an 'Unable to initialise company' error on the Book Keeper application on my Windows/PC. How can I fix it?",
+        "answer": "Please try the following steps to resolve the issue:\n\n1. Click “OK” on the error message and restart the Book Keeper application.\n2. Ensure you are using the latest version of the Book Keeper app.\n3. If the issue still persists:\n   - Go to the Dashboard > Settings > Windows Specific Settings > Book Keeper Default Location > For B.K Folder\n   - Select the AppData folder as the BK folder location\n4. If none of the above steps work, please contact the Book Keeper Support Team for further assistance." 
+    },
+    {
+        "question": "I’m a Diamond plan user, but I’m still unable to use the Multi-Currency feature.",
+        "answer": "Please follow these steps to resolve the issue:\n\n1. Re-login to the Book Keeper app using your Subscription ID and Password.\n2. This should activate your plan and enable the Multi-Currency feature.\n3. If the issue still persists, please contact the Book Keeper Support Team for further assistance."
+    },
+    {
+        "question": "I'm unable to create Forex vouchers and getting a 'Multi-Currency Disabled' error.",
+        "answer": "This issue usually occurs when your Multi-Currency feature is not activated. To resolve it:\n\n1. Re-login to the Book Keeper application using your Subscription ID and Password.\n2. This will refresh your plan and activate the Multi-Currency feature.\n\nIf the issue still persists, please contact the Book Keeper Support Team for help."
+    },
+    {
+        "question": "The party/account/customer/debtor/creditor/supplier ledger is showing a negative balance in Multi-Currency (Forex) mode.",
+        "answer": "This usually happens due to incorrect voucher entries. Please follow these steps:\n\n1. Edit the vouchers of the affected party one by one and review each entry.\n2. Carefully check all the accounts used in the voucher.\n3. Ensure that the customer name is not added under the \"Other Charges\" section of the voucher, as this can lead to incorrect balance calculation in multi-currency mode."
+
+    },
+    {
+        "question": "I’m getting the “RCV1” series while creating a voucher from the admin device, even though I’ve changed the voucher series.",
+        "answer": "This issue may be caused by the user initials defined in your settings. Please follow these steps:\n\n1. Go to Settings > User Management\n2. Check the user initials assigned to the user\n3. If the initials start with the letters R, C, or V, then the software unable to differentiate due to these letters present in RCV.\n4. To resolve this, change the user initials to a longer and more unique code. \n   - For example, instead of R, use RAJ; instead of C, use COM\n\nThis will prevent conflicts with the RCV series and allow your custom voucher series to work correctly."
+    },
+    {
+        "question": "I’m unable to add an image in the footer of an estimate",
+        "answer": "To add an image in the footer of your estimate, follow these steps:\n\n1. Save the image you want to use (e.g., your company stamp or logo) on your Desktop.\n2. Use HTML code in the estimate footer section and refer to the full path of the image.\n\nSample HTML Code:\n\n```html\n<img src=\"C:/Users/DevGupta/Desktop/logo.png\" width=\"200\" height=\"80\" />\n```\n\n.\n\nThis will embed the image in the footer of your estimate. Make sure the image path remains unchanged or the image won’t appear."
+    },
+    {
+        "question": "what is difference between rate/unit and sale price?",
+        "answer": "Please check this article for the difference between rate/unit and sale price with example: https://book-keeper-app.document360.io/docs/difference-between-initial-cost-default-purchase-price-default-sale-price"
+    },
+    {
+        "question": "How to create multi-admin on book keeper?",
+        "answer": "To create multiple admins in Book Keeper, please mail us at support@bookkeeperapp.net from your registered email address."
+    },
+    {
+        "question": "Why is the Shipping Address not showing in the E-Way Bill window?",
+        "answer": "Please make sure that you have mentioned the State in the Buyer details window in Shipping Address field as it is a mandatory parameter to pick the same Shipping address in the E-way bill."
+    },
+    {
+        "question": "I want to shift my BK Web company to my Dropbox account. How can I create a local backup of BKWeb company and sync it with Dropbox?",
+        "answer": "Follow the steps below to create a local backup of your BK Web company and sync it with Dropbox:\n\n1. Open your BK Web company\n2. Click on the company name in the top-left (green color)\n3. Select Book Keeper Web > Create Local Backup\n4. A backup file will be saved on your Desktop\n5. Close the current company by pressing Alt + F1\n6. Browse and open the backup file saved on your Desktop — this is now your local company file\n\nTo sync this local file with Dropbox:\n\n1. Click on the message \"Company file is local, not syncing with Dropbox\" in the top-left corner\n2. Then click on Enable Sync\n\nYour company will now be synced with your Dropbox account."
+    }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How to delete a company present on BKWeb on Windows/PC/Laptop?",
+    "answer": "To delete a BKWeb company, go to Dashboard > Click on Company name > Click on Book Keeper Web > Click on Delete Company > Click on Yes. Your company will be scheduled for deletion. If you do not open this company in the next 7 days, it will be deleted. To cancel deletion, simply open the company again."
+  },
+  {
+    "question": "How to delete BKWeb company on Android?",
+    "answer": "On Android, tap the three lines (☰) on the top left > Tap Add/Change Company. It will open a list of companies. Tap the three dots next to your company name, then select 'Delete from BKWeb'. The company will be scheduled for deletion in 7 days. To cancel deletion, just open the company again."
+  },
+  {
+    "question": "How to use BookKeeper on MacBook/iMac?",
+    "answer": "Book Keeper is designed for Windows, but you can use it on a Mac with some workarounds. Follow the guide here: https://book-keeper-app.document360.io/docs/how-to-install-book-keeper-on-mac-book-keeper-mac-macbook-mac-os-macbook-pro-macbook-air"
+  },
+  {
+    "question": "I forgot my company password, how to reset it?",
+    "answer": "💻 Windows: Enter the wrong admin password 3 times, then click 'Forgot Password'. A reset link will be sent to your registered email.\n📱 Android (v9.0.0 & above): Left menu > Add/Change Company > 3 dots next to company name > Forgot Password\n📱 Android (older version): 3 dots > Backup Company > Email to support@bookkeeperapp.net\n📱 iOS: Swipe left on company name > Backup on Email > enter support@bookkeeperapp.net"
+  },
+  {
+    "question": "How to Make Accounts Active/InActive in Book Keeper?",
+    "answer": "Only available for Diamond Plan users. On Windows: Dashboard > All Accounts > Select account > Edit > Set status to Active or Inactive. Filter using: Diamond Plan > Display Active/Inactive Accounts.\nOn Android: Dashboard > Customers/Suppliers > 3 dots next to account name > Edit > Set to Active/Inactive.\nMore info: https://book-keeper-app.document360.io/docs/how-to-make-accounts-activeinactive-in-book-keeper"
+  },
+  {
+    "question": "How to make Inventory Items as Active/Inactive. I want to delete inventory items but it says Item cannot be deleted.",
+    "answer": "If an item is used in sale/purchase vouchers, it cannot be deleted. Instead, mark it as Inactive.\nOn Windows: Dashboard > Inventory Item > Select 'All' in Active Items dropdown > Mark 'False' to make inactive, 'True' to make active.\nOn Android: Dashboard > Inventory Items > 3 lines top right > Edit Active/Inactive > Apply > Unselect items to mark inactive.\nMore info: https://book-keeper-app.document360.io/docs/mark-inventory-items-as-activeinactive-deactivate-inventory-items"
+  },
+  {
+    "question": "How can I import Items or Services from Excel in Bookkeeper?",
+    "answer": "For Local company: Dashboard > Tools > Import item/services from Excel\nFor BKWeb company: Gold Plan > Export/Import Item/Service from Excel\nSteps:\n1. Select Inventory Items/Services\n2. Download sample Excel\n3. Fill in data\n4. Browse and import file\n5. Use 'Update Existing Items' or 'Ignore Existing Items'\n6. Click Start Import"
+  },
+  {
+    "question": "How can I import Customers or Suppliers from Excel in Bookkeeper?",
+    "answer": "For Local company: Dashboard > Tools > Import Customers/Suppliers from Excel\nFor BKWeb company: Gold Plan > Export/Import Customers/Suppliers from Excel\nSteps:\n1. Select Customer/Supplier/Other Accounts/Employee\n2. Download sample Excel file\n3. Fill in data\n4. Upload file\n5. Click Start Import"
+  },
+  {
+    "question": "How can I import Transactions from Excel in Bookkeeper?",
+    "answer": "Transaction import is only available for Local or Dropbox-based companies.\nSteps:\n1. Dashboard > Tools > Import Transaction from Excel\n2. Select Import Type\n3. Download sample Excel file\n4. Fill file\n5. Import and verify"
+  },
+  {
+    "question": "Is transaction import available for BKWeb companies?",
+    "answer": "No, importing transactions from Excel is only available for Local or Dropbox-based companies."
+  },
+  {
+    "question": "How to turn on Warehousing on Windows and Android?",
+    "answer": "Windows: Settings > Company Settings > Features > Enable Warehousing\nAndroid: ☰ menu > ⚙️ Settings > Enable Warehousing\nMore info: https://book-keeper-app.document360.io/docs/warehousing-in-book-keeper-windows-how-to-create-warehouse-warehouse-godown-stores-multiple-warehouse"
+  },
+  {
+    "question": "How to use Multiple Pricing feature?",
+    "answer": "Windows: Settings > Transaction Settings > Date and Rate > Enable Multiple Pricing (up to 7 levels)\nAndroid: Watch video: https://youtu.be/cW_7MS8OuW0?si=2ZBwd997hmFS2CQL\nMore info: https://book-keeper-app.document360.io/docs/how-to-use-multiple-pricing"
+  }
+]
