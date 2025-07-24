@@ -1,0 +1,102 @@
+[
+    {
+        "id": "ISS01",
+        "question": "I'm getting an 'Office not detected' error while generating the GSTR-1 report. How can I fix this?",
+        "answer": "Please follow the steps below to resolve the issue:\n\n1. Check Office Location Settings:\n   - Go to the Dashboard\n   - Click on Settings > Windows Specific Settings > Book Keeper Default Location > For B.K Folder > Select App Data,\nIf the above mentioned step does not resolve the issue, then follow these steps:\n2. Repair Microsoft Office:\n   - Open Control Panel > Uninstall a Program\n   - Select Microsoft Office\n   - Click Change and choose the Repair option\n\n3. Update Your Windows OS:\n   - If you're not using Windows 10 or Windows 11, please upgrade your system\n   - If you're already on Windows 10 or 11, make sure your system is up to date\n\nIf the issue still persists, feel free to reach out to our support team."
+    },
+    {
+        "id": "ISS02",
+        "question": "While creating an invoice in Book Keeper, it's showing an older/previous/last transaction date. How can I set the current date automatically?",
+        "answer": "To ensure the invoice uses the current date by default, follow these steps:\n\n1. Go to the Dashboard\n2. Click on Settings > Transaction Settings > Date & Rate\n3. Enable the option “Use Current Date”\n\nThis will automatically set today’s date whenever you create a new invoice."
+    },
+    {
+        "id": "ISS03",
+        "question": "How can I run Book Keeper software on Windows 7? I'm getting an error while using it.",
+        "answer": "Book Keeper is not guaranteed to work properly on Windows 7, as Microsoft has officially ended support and services for Windows 7. This can lead to compatibility issues, missing updates, or other unexpected errors.\n\nTo ensure the software runs smoothly and securely, we strongly recommend upgrading to Windows 10 or Windows 11."
+
+    },
+    {
+        "id": "ISS04",
+        "question": "I'm getting an 'Unable to initialise company' error on the Book Keeper application on my Windows/PC. How can I fix it?",
+        "answer": "Please try the following steps to resolve the issue:\n\n1. Click “OK” on the error message and restart the Book Keeper application.\n2. Ensure you are using the latest version of the Book Keeper app.\n3. If the issue still persists:\n   - Go to the Dashboard > Settings > Windows Specific Settings > Book Keeper Default Location > For B.K Folder\n   - Select the AppData folder as the BK folder location\n4. If none of the above steps work, please contact the Book Keeper Support Team for further assistance." 
+    },
+    {
+        "id": "ISS05",
+        "question": "I’m a Diamond plan user, but I’m still unable to use the Multi-Currency feature.",
+        "answer": "Please follow these steps to resolve the issue:\n\n1. Re-login to the Book Keeper app using your Subscription ID and Password.\n2. This should activate your plan and enable the Multi-Currency feature.\n3. If the issue still persists, please contact the Book Keeper Support Team for further assistance."
+    },
+    {
+        "id": "ISS06",
+        "question": "I'm unable to create Forex vouchers and getting a 'Multi-Currency Disabled' error.",
+        "answer": "This issue usually occurs when your Multi-Currency feature is not activated. To resolve it:\n\n1. Re-login to the Book Keeper application using your Subscription ID and Password.\n2. This will refresh your plan and activate the Multi-Currency feature.\n\nIf the issue still persists, please contact the Book Keeper Support Team for help."
+    },
+    {
+        "id": "ISS07",
+        "question": "The party/account/customer/debtor/creditor/supplier ledger is showing a negative balance in Multi-Currency (Forex) mode.",
+        "answer": "This usually happens due to incorrect voucher entries. Please follow these steps:\n\n1. Edit the vouchers of the affected party one by one and review each entry.\n2. Carefully check all the accounts used in the voucher.\n3. Ensure that the customer name is not added under the \"Other Charges\" section of the voucher, as this can lead to incorrect balance calculation in multi-currency mode."
+
+    },
+    {
+        "id": "ISS08",
+        "question": "I’m getting the “RCV1” series while creating a voucher from the admin device, even though I’ve changed the voucher series.",
+        "answer": "This issue may be caused by the user initials defined in your settings. Please follow these steps:\n\n1. Go to Settings > User Management\n2. Check the user initials assigned to the user\n3. If the initials start with the letters R, C, or V, then the software unable to differentiate due to these letters present in RCV.\n4. To resolve this, change the user initials to a longer and more unique code. \n   - For example, instead of R, use RAJ; instead of C, use COM\n\nThis will prevent conflicts with the RCV series and allow your custom voucher series to work correctly."
+    },
+    {
+        "id": "ISS09",
+        "question": "I’m unable to add an image in the footer of an estimate",
+        "answer": "To add an image in the footer of your estimate, follow these steps:\n\n1. Save the image you want to use (e.g., your company stamp or logo) on your Desktop.\n2. Use HTML code in the estimate footer section and refer to the full path of the image.\n\nSample HTML Code:\n\n```html\n<img src=\"C:/Users/DevGupta/Desktop/logo.png\" width=\"200\" height=\"80\" />\n```\n\n.\n\nThis will embed the image in the footer of your estimate. Make sure the image path remains unchanged or the image won’t appear."
+    },
+    {
+        "id": "ISS10",
+        "question": "Why is the Shipping Address not showing in the E-Way Bill window?",
+        "answer": "Please make sure that you have mentioned the State in the Buyer details window in Shipping Address field as it is a mandatory parameter to pick the same Shipping address in the E-way bill."
+    },
+    {
+        "id": "ISS11",
+        "question": "While generating EWay bill, it says 'Invalid Credentials'.",
+        "answer": "Go to EWay bill portal and update your password from there. After that, come on BK Windows, click on Invoice for which you want to create EWay bill, click on e-way bill. An EWay bill window will open. Press Ctrl+Alt+Shift+F10. This will reset the credentials. Press Auto Generate EWay bill, it will ask for the credentials. Put them and press OK."
+    },
+    {
+        "id": "ISS12",
+        "question": "Data mismatch in Android and Windows in BKWeb company.",
+        "answer": "Force refresh on both devices. On Windows, go to Dashboard > click on your company name > Book Keeper Web > Fetch Data From BKWeb (Forced). On Android, go to company list > click on 3 dots in front of company name > Force Refresh."
+    },  
+    {
+        "id": "ISS13",
+        "question": "Issue in importing user data from Dropbox.",
+        "answer": "If you encounter the error 'Account/Item doesn’t exist', follow these steps:\n\n1. On the Admin device:\n   - Search for the missing account or item.\n   - If it exists, copy and paste it where required.\n   - If it does not exist, create a new account or item.\n\n2. Once the account or item is available on the Admin device, go back to the user device and click on 'Import User Data' to sync the latest changes.\n\nFor a detailed video guide, please refer to:\nhttps://www.youtube.com/watch?v=7tM-99qOt4A&t"
+    },
+    {
+        "id": "ISS14",
+        "question": "I am getting the wrong average price for my inventory items.",
+        "answer": "Please review your inventory valuation method, as it may affect the average price calculation.\n\nOn Android:\nGo to Settings > General Settings > Inventory Valuation Method, and try selecting a different method such as FIFO or Average Cost.\n\nOn Windows:\nGo to Settings > Transaction Settings > Report Settings, and update the Inventory Valuation Method accordingly."
+    },
+    {
+        "id": "ISS15",
+        "question": "There is a mismatch in my GSTR-1 HSN Summary section.",
+        "answer": "Please verify the HSN codes of your inventory items by cross-checking them with the official GST portal. In most cases, mismatches occur due to incorrect or outdated HSN codes.\n\nAdditionally, review your invoices carefully. Sometimes, issues arise when you forget to apply tax on some items. This can lead to discrepancies in the HSN summary for your customers.\nAdditionally, just open GSTR1 and on bottom of the file you will get one header as Uncertain transactions where the correction is required."
+    },
+    {
+        "id": "ISS16",
+        "question": "I am getting a .NET Unhandled Exception in Book Keeper. How can I fix it?",
+        "answer": "Please follow the steps below to resolve this issue:\n\n1. Ensure you are using the latest version of Book Keeper (v7.9.5 or above).\n2. Open Control Panel > Uninstall a Program, and check if two versions of Book Keeper are installed.\n   - If yes, uninstall the version 7.6.2.\n   - Do not uninstall the version 7.9.x.\n3. Open File Explorer and navigate to: C:\\Users\\<Your-Username>\\AppData\\Local\n4. Locate the folder named 'Just_Apps' and rename it to 'Just_Apps_OLD'.\n5. Now, reopen Book Keeper.\n\nIf the issue still persists or you need assistance with these steps, please contact the Book Keeper Support Team."
+    },
+    {
+        "id": "ISS17",
+        "question": "How to free up space or remove unnecessary files from Dropbox?",
+        "answer": "If your Dropbox is full, you can stop syncing certain folders to free up space. Here's how to remove unnecessary files and keep them only on your PC:\n\n1. **Access Backup Settings:**\n   - Go to 'My Files', right-click on the 'Desktop' icon, and click on **Manage Backup**.\n   - If that option is not available, click the **Dropbox icon** from the system tray (bottom-right corner), then go to **Preferences > Backup > Manage Backup**.\n\n2. **Unselect Unwanted Folders:**\n   - Untick the folders (like Desktop, Documents, Downloads) that you no longer want to sync with Dropbox.\n\n3. **Keep Files on PC:**\n   - When prompted, select **'Keep content in folders on this PC'** and then confirm to stop backup.\n\nThis will stop syncing selected folders with Dropbox, and the files will remain saved locally on your computer, freeing up space in your Dropbox account."
+    },
+    {
+        "id": "ISS18",
+        "question": "GST is not validating. I am getting error while validating customer or supplier GST number in the application.",
+        "answer": "Please re-login with your subscription email ID and password. If this does not resolve the issue, please check if you have consumed all your GST Validation APIs. For more GST Validation APIs, please purchase more GST APIs from here: https://pages.razorpay.com/pl_KlRzq50thSEgbO/viewcontact or you can contact Book Keeper Support Team."
+    },
+    {
+        "id": "ISS19",
+        "question": "Specifications recommended for running Book Keeper | Minimum requirements | System requirements | Recommended Mobile/Laptop",
+        "answer": "**Windows PC Recommendations:**\n1. Operating System: Windows 10 or 11\n2. Processor: Intel i3 (2.4 GHz or above), i5 (Quad Core: 1.8 GHz or above), or higher\n3. RAM: 8 GB DDR3 or above\n4. Storage: 250 GB HDD or 128 GB SSD or higher\n\n**Android Phone Recommendations:**\n1. OS: Android 11 or above\n2. RAM: Minimum 6 GB (Recommended 8 GB)\n\n**iPhone Recommendations:**\n1. Device: iPhone 11 or above\n2. OS: iOS 16 or above"
+    }
+
+
+
+]

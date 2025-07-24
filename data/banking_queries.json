@@ -1,0 +1,86 @@
+[
+    {
+        "id": "BAN01",
+        "question": "How to make cheque bounce entry in the application?",
+        "answer": "If a customer's cheque has bounced, follow these steps:\n\n1. Edit the Receipt voucher and do not set it off against the invoice.\n2. Save the voucher.\n3. Pass a reversal entry as an Expense:\n   - Paid From: Bank\n   - Paid To: Customer Name\n   - Narration: Cheque Bounce\n4. Record any applicable bank charges:\n   - Create an Expense voucher\n   - Paid From: Bank\n   - Paid To: Bank Charges\n\nIf a cheque given to a supplier has bounced:\n\n1. Edit the Payment voucher to the supplier and do not set it off against the purchase.\n2. Save the voucher.\n3. Pass a reversal entry as Income:\n   - Received Into: Bank\n   - Received From: Supplier Name\n4. Record bank charges:\n   - Create an Expense voucher\n   - Paid From: Bank\n   - Paid To: Bank Charges"
+        
+    },
+    {
+        "id": "BAN02",
+        "question": "How to make advance salary entry in the application?",
+        "answer": "To record an advance salary, create the following journal entries:\n\n1. At the time of payment:\n- Debit: Advance Salary (under Loans & Advances)\n- Credit: Cash or Bank\n\n2. When the salary becomes due:\n- Debit: Salary\n- Credit: Advance Salary\n\nThis ensures that the advance is recorded as an asset initially and adjusted correctly when salary is paid."
+        
+    },
+    {
+        "id": "BAN03",
+        "question": "How to use the Payroll feature in the application?",
+        "answer": "The Payroll feature is only available for Local or Dropbox-based companies. It is not available on Android or iOS.\n\nIf Payroll is NOT available:\n- Create a Salary account under Indirect Expenses via All Accounts.\n- Record salary as an Expense:\n  1. Go to Transactions > Expense > Create\n  2. Paid From: Cash or Bank\n  3. Paid To: Salary account (Indirect Expenses)\n\nIf Payroll IS available:\n1. Go to Tools > Payroll\n2. Create Employee:\n   - Add employee details such as code, PAN, bank info, and photo\n3. Set Salary Structure:\n   - Add basic salary and allowances (fixed or percentage-based)\n4. Credit Salary:\n   - Select employee and click 'Generate Salary'\n5. Salary Generation:\n   - Enter month, total days, leaves taken, salary transfer date, payment source (Bank/Cash), and any incentives or arrears\n6. View Salary Slip:\n   - Click on employee > View All Salary > Select voucher > View Salary Slip to print or export\n\nFor a video guide: https://www.youtube.com/watch?v=g0xSjl1iCuI"
+    },
+    {
+        "id": "BAN04",
+        "question": "Customer has purchased items and made full payment, now returning items. How to process it in the application?",
+        "answer": "If a customer has made full payment for an invoice and later returns some items, follow these steps to properly record and refund the transaction in Book Keeper:\n\n**Example:**\n- Customer purchased items worth ₹100 (Invoice INV1).\n- Made full payment (Receipt RCV1).\n- Now returning items worth ₹40.\n\n**Steps:**\n1. **Edit the Original Receipt (RCV1):**\n   - Change the payment amount from ₹100 to ₹60.\n   - Record ₹40 as advance payment.\n\n2. **Create Sales Return/Credit Note (SLR1):**\n   - Create a Sales Return for ₹40.\n   - Set it off against the original Invoice (INV1).\n\n3. **Refund the Excess Amount:**\n   - Create an Expense entry (PAY1) to record the ₹40 refund paid to the customer.\n\n4. **Review Ledger Report:**\n   - Check the customer’s ledger to verify that all entries (invoice, payment, return, and refund) are correctly reflected.\n\nThis method ensures accurate accounting for both the return and the refund issued."
+        
+    },
+    {
+        "id": "BAN05",
+        "question": "How to make Outstanding Expense entry or book an expense to pay later in the application?",
+        "answer": "To record an expense that is due but not yet paid (outstanding), follow these two-step entries:\n\n**1. When the expense becomes due (but not paid):**\n- **Journal Entry:**\n  - Debit: Expense Account (e.g., Rent Payable)\n  - Credit: Outstanding Expense Account (e.g., Outstanding Rent Payable)\n\n**Example:**\nDate: 31st July 2017 — Rent of ₹30,000 becomes payable\n- Debit: Rent Payable ₹30,000 (Direct Expense)\n- Credit: Outstanding Rent Payable ₹30,000 (Current Liability)\n\n**2. When the outstanding expense is paid later:**\n- **Payment Entry:**\n  - Debit: Outstanding Expense Account\n  - Credit: Bank/Cash Account\n\n**Example:**\nDate: 5th August 2017 — Rent is paid from Bank Account\n- Debit: Outstanding Rent Payable ₹30,000\n- Credit: Bank Account ₹30,000\n\n**Account Classification:**\n- 'Rent Payable' comes under **Direct Expense**\n- 'Outstanding Rent Payable' comes under **Current Liabilities**\n\nThis ensures your liability is recorded accurately when the expense is due and cleared when payment is made."
+        
+    },
+    {
+        "id": "BAN06",
+        "question": "How to withdraw amount from business? | Drawing Entry in the application",
+        "answer": "There are two ways to record drawings (amount withdrawn by the proprietor) in Book Keeper:\n\n**1. Deduction from Capital Account (Preferred Method):**\n- **Journal Entry:**\n  - Debit: Drawings\n  - Credit: Cash/Bank\n- **Note:** Create 'Drawings' account under **Capital A/c**. This will reduce the capital in the balance sheet.\n\n**2. Treat Drawings as an Indirect Expense:**\n- **Expense Entry:**\n  - Debit: Drawings\n  - Credit: Cash/Bank\n- **Note:** In this case, create the 'Drawings' account under **Indirect Expenses**. This method reduces net profit in Profit & Loss statement.\n\n**Best Practice:**\n- Method 1 is recommended for accounting accuracy, as personal withdrawals should reduce capital and not affect business profitability."
+ 
+    },
+    {
+        "id": "BAN07",
+        "question": "How to record prepaid expenses in the application? Amount Given to Employees for Expenses | What Are Prepaid Expenses? | How to Reimburse Employees in the application?",
+        "answer": "**Prepaid Expenses:**\nPrepaid expenses are future costs paid in advance. They are recorded as assets initially, then adjusted as expenses over time.\n\n**Example Use Case:** Company gives an employee advance money to cover upcoming business expenses.\n\n**Step 1: Record Prepaid Expense (Advance to Employee):**\n- **Journal Entry:**\n  - Debit: Employee's Prepaid Expense A/c (under Current Assets)\n  - Credit: Cash/Bank A/c\n\n**Step 2: Adjust Actual Expense Later:**\n- **Journal Entry:**\n  - Debit: Actual Expense A/c (e.g., Electricity, Stationery)\n  - Credit: Employee's Prepaid Expense A/c\n\n---\n\n**Employee Reimbursement:**\nWhen an employee spends personal money on behalf of the company and gets reimbursed later:\n\n**Step 1: Record the Expense and Liability:**\n- **Journal Entry:**\n  - Debit: Expense A/c (e.g., Travel, Food)\n  - Credit: Employee Reimbursement A/c (under Current Liabilities)\n\n**Step 2: Reimburse the Employee:**\n- **Journal Entry:**\n  - Debit: Employee Reimbursement A/c\n  - Credit: Cash/Bank A/c\n\nThese entries help ensure clean tracking of employee-related expenses and proper balance sheet reporting."
+       
+    },
+    {
+        "id": "BAN08",
+        "question": "How to Record a Credit Note in Book Keeper | Credit Note Against Invoice",
+        "answer": "A Credit Note is used to reduce the value of a previously issued invoice due to reasons like returned goods, pricing errors, or overpayments.\n\n**Reasons to Issue a Credit Note:**\n- Customer returned goods\n- Pricing mistake on the original invoice\n- Overpayment by the customer\n- Goods damaged during delivery\n\n---\n\n**Case 1: Goods Returned by Customer**\n1. Go to **Transactions > Credit Note > Create New**\n2. Select the **Customer Account**, add the returned items and their quantities\n3. Click on **Set off Against Invoice** > choose the relevant invoice > enter the return amount in **Amount to Pay**\n4. Save the Credit Note\n\n---\n\n**Case 2: Adjust Invoice Without Goods Return (Price Correction or Discount)**\n1. Go to **Transactions > Credit Note > Create New**\n2. Select the **Customer Account**\n3. Change the mode to **'On Total'**, then enter the adjusted subtotal amount\n4. Enable the **Tax** checkbox and select the correct **Tax Slab**\n5. Click on **Set off Against Invoice**, select the related invoice, define the amount, and **Save**\n\nThis will correctly reflect the credit and reduce the customer’s outstanding balance or mark the refund."
+        
+    },
+    {
+        "id": "BAN09",
+        "question": "How to make entry for Depreciation of Fixed Assets in the application | Depreciation of Assets",
+        "answer": "Depreciation refers to the reduction in the value of a fixed asset over time due to usage, wear and tear, or obsolescence. It is treated as an expense in accounting.\n\n**Common Depreciation Methods:**\n1. **Straight-Line Method**\n   - Formula: (Purchase Value - Residual Value) / Useful Life\n   - Example: Asset worth ₹50,00,000 used for 25 years → Annual Depreciation = ₹2,00,000\n\n2. **Declining Balance Method**\n   - Depreciation is higher in earlier years\n   - Uses a multiplying factor like 1.5x or 2x the straight-line rate\n   - Common for accelerated depreciation (e.g., double-declining method)\n\n---\n\n**How to Record Depreciation in Book Keeper (Example):**\n- **Scenario**: Machinery purchased for ₹10,000, depreciation rate is 10%\n- **Depreciation Amount**: ₹1,000\n\n**Step 1: Create Accounts**\n- 'Depreciation' account under **Indirect Expenses**\n- Ensure 'Machinery' is recorded under **Fixed Assets**\n\n**Step 2: Create Journal Entry**\n- **Debit**: Depreciation A/c ₹1,000\n- **Credit**: Machinery A/c ₹1,000\n\nThis entry reduces the asset value on the balance sheet and reflects depreciation as an expense in the profit & loss statement.\n\n**Note**: Depreciation should be calculated manually based on your chosen method and applied consistently year to year."
+      
+    },
+    {
+        "id": "BAN10",
+        "question": "Difference between different customer Reports like Ledger, Aged Receivable or Outstanding Receivable",
+        "answer": "In Book Keeper, there are multiple reports to track customer transactions and balances. Here's how they differ:\n\n1. **General Ledger (Account Statement)**\n- Shows all debit and credit transactions for each account.\n- Can be filtered by account, party, item, or date.\n- Displays opening and closing balances.\n- Best for reviewing the full transaction history of any customer.\n- Go to: Reports > Account Statement/Ledger > Display\n\n2. **Aged Receivable**\n- Shows outstanding amounts grouped by how long they have been overdue.\n- Useful for ageing analysis (e.g., 0-30 days, 31-60 days, etc.)\n- Helps prioritize follow-up with customers.\n- Go to: Reports > Aged Receivable > Display\n\n3. **Outstanding Report**\n- Displays the current outstanding balance invoice-wise.\n- Includes filters for customer name and account group.\n- Useful for quickly viewing who owes what and against which invoice.\n- Go to: Reports > Outstanding Report > Display"
+        
+    },
+    {
+        "id": "BAN11",
+        "question": "How to record Loan Taken or Loan Given entry in the application?",
+        "answer": "**Loan Given to Friend:**\n1. Create account under *Loans & Advances*.\n2. Go to **Transactions > Expense > Create**:\n   - Paid From: Cash/Bank\n   - Paid To: Friend's Loan A/c\n3. For interest calculation, go to **Other Reports > Interest Calculation Report**, enter interest rate and select the account.\n4. Pass journal entry for interest:\n   - Debit: Friend’s Loan A/c\n   - Credit: Interest A/c (under Direct/Indirect Income)\n5. When your friend repays:\n   - Go to **Transactions > Income > Create**\n   - Received From: Friend's Loan A/c\n   - Received Into: Cash/Bank\n6. Use Ledger Report to view outstanding and received amounts.\n\n**Loan Taken from Bank:**\n1. Create account under *Loans (Liabilities)*.\n2. Go to **Transactions > Income > Create**:\n   - Received Into: Cash/Bank\n   - Received From: Loan A/c\n3. For interest calculation, go to **Other Reports > Interest Calculation Report**, enter interest rate and select the account.\n4. Pass journal entry for interest:\n   - Debit: Interest A/c (under Direct/Indirect Expense)\n   - Credit: Loan A/c\n5. To repay EMI/Loan:\n   - Go to **Transactions > Expense > Create**\n   - Paid From: Cash/Bank\n   - Paid To: Loan A/c\n6. Use Ledger Report to view pending and paid loan amounts."
+        
+    },
+    {
+        "id": "BAN12",
+        "question": "How to transfer profit to capital account? | How to withdraw Profit from business?",
+        "answer": "At the end of the financial year, it is common practice to transfer the business profit or loss to the proprietor's capital account or to withdraw profits from the business.\n\nTo do this in Book Keeper:\n\n1. Go to **Transactions > Journal > Create**.\n2. Pass the following journal entry:\n   - **Debit**: Profit/Loss A/c\n   - **Credit**: Capital A/c\n\nThis entry effectively transfers the net profit to the capital account.\n\nIn case of a loss, you can reverse the entry:\n   - **Debit**: Capital A/c\n   - **Credit**: Profit/Loss A/c"
+    
+    },
+    {
+        "id": "BAN13",
+        "question": "Difference between Average Inventory Valuation (AVCO) method and FIFO Inventory Valuation Method | AVCO vs FIFO",
+        "answer": "Inventory valuation affects cost of goods sold and ending inventory. Two common methods are:\n\n1. **Average Cost (AVCO)**: Calculates inventory value based on the weighted average cost of all units. Each time a sale is made, the average cost is applied.\n\n2. **FIFO (First-In, First-Out)**: Assumes the oldest inventory is sold first. The cost of earliest purchases is used for sold items, and ending inventory is based on most recent purchase prices.\n\n**Example:**\n- Purchase 200 chairs @ ₹100 = ₹20,000\n- Purchase 300 chairs @ ₹200 = ₹60,000\n- Total: 500 chairs, ₹80,000\n\n**If 100 chairs are sold:**\n\n- **AVCO:**\n  - Average cost = ₹80,000 / 500 = ₹160\n  - COGS = 100 × ₹160 = ₹16,000\n  - Remaining Inventory = 400 × ₹160 = ₹64,000\n\n- **FIFO:**\n  - COGS = 100 × ₹100 = ₹10,000\n  - Remaining Inventory = (100 × ₹100) + (300 × ₹200) = ₹70,000"
+        
+    },
+    {
+        "id": "BAN14",
+        "question": "Customer Has Given Advance Payment, how to set off this in future invoices | Receipt Against Invoice",
+        "answer": "If a customer makes an advance payment, it can be adjusted against future invoices.\n\nFor example, if an invoice (INV34) is created for ₹100 and the customer pays ₹150:\n\n- Go to Transactions > Receipt > Create.\n- Choose 'Receipt Against Invoice'.\n- Allocate ₹100 against INV34.\n- Record the remaining ₹50 as Advance Payment.\n\nLater, when a new invoice INV54 is created for ₹72:\n\n- Edit the previous receipt (RCV23).\n- In 'Receipt Against Invoice', allocate ₹50 against INV54.\n- Remove ₹50 from Advance Payment (since it’s now adjusted).\n- Save the receipt.\n\nNow, INV54 will show ₹22 as pending. A separate receipt can be created for this remaining amount."
+        
+    }
+
+]

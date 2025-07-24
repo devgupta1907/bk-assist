@@ -1,0 +1,27 @@
+[
+    {
+        "id": "BKW01",
+        "question": "How to delete a company present on BKWeb on Windows/PC/Laptop?",
+        "answer": "To delete a BKWeb company, go to Dashboard > Click on Company name > Click on Book Keeper Web > Click on Delete Company > Click on Yes. Your company will be scheduled for deletion. If you do not open this company in the next 7 days, it will be deleted. To cancel deletion, simply open the company again."
+    },
+    {
+        "id": "BKW02",
+        "question": "How to delete BKWeb company on Android?",
+        "answer": "On Android, tap the three lines (☰) on the top left > Tap Add/Change Company. It will open a list of companies. Tap the three dots next to your company name, then select 'Delete from BKWeb'. The company will be scheduled for deletion in 7 days. To cancel deletion, just open the company again."
+    },
+    {
+        "id": "BKW03",
+        "question": "Is transaction import available for BKWeb companies?",
+        "answer": "No, importing transactions from Excel is only available for Local or Dropbox-based companies on Windows and Android device. It is not available on iOS."
+    },
+    {
+        "id": "BKW04",
+        "question": "I want to shift my BKWeb company to my Dropbox account. How can I create a local backup of BKWeb company and sync it with Dropbox on Windows?",
+        "answer": "Follow the steps below to create a local backup of your BK Web company and sync it with Dropbox on Android:\n\n1. Open your BK Web company\n2. Click on the company name in the top-left (green color)\n3. Select Book Keeper Web > Create Local Backup\n4. A backup file will be saved on your Desktop\n5. Close the current company by pressing Alt + F1\n6. Browse and open the backup file saved on your Desktop — this is now your local company file\n\nTo sync this local file with Dropbox:\n\n1. Click on the message \"Company file is local, not syncing with Dropbox\" in the top-left corner\n2. Then click on Enable Sync\n\nYour company will now be synced with your Dropbox account."
+    },
+    {
+        "id": "BKW05",
+        "question": "I want to shift my BKWeb company to my Dropbox account. How can I create a local backup of BKWeb company and sync it with Dropbox on Android?",
+        "answer": "Follow the steps below to create a local backup of your BK Web company and sync it with Dropbox on Android:\n\n1. Open the Book Keeper app, and open the company list.\n2. Click on three dots in front of company name.\n3. Select Create Local Company\n4. A local company file will be created.\n\nTo sync this local file with Dropbox:\n\n1. Open the newly created local company with your admin credentials.\n2. Click on Sync icon on top, next to notifications icon. Press Enable Sync\n\nYour company will now be synced with your Dropbox account."
+    }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "GEN01",
+    "question": "While creating an invoice, the application is not selecting the default tax account for the item.",
+    "answer": "Please follow these steps:\n\n1. Go to **Inventory Items** > Edit the item and ensure that a default tax account has been selected.\n\n2. If the issue persists, try this workaround:\n   - Create a new invoice\n   - Manually select the appropriate tax from the dropdown\n   - Ensure the invoice mode is set to **Per-Item**\n   - Save the invoice\n\nThe next time you create an invoice for the same item, the default tax account will be applied automatically."
+  },
+  {
+    "id": "GEN02",
+    "question": "Rate including of tax column is not appearing while creating invoice or viewing invoice.",
+    "answer": "To display Rate including of tax column while creating an invoice, go to Dashboard > Settings > Transaction Settings > Misc. > tick \"Display Column of Rate Inc. of Tax\". If you want to show Rate Inc. of Tax column in invoice, go to Settings > Template Settings > Item Table > tick Rate (Inc. of Tax) field."
+  },
+  {
+    "id": "GEN03",
+    "question": "How to get customer/suppliers list that do not have zero balance.",
+    "answer": "On Windows, go to Settings > General Settings > untick Display Zero Balance Accounts in Reports.\n On Android, go to All Reports > Settings > untick Display Zero Balance Accounts in Reports."
+  },
+  {
+    "id": "GEN04",
+    "question": "How to copy inventory items into other company if my company is on BKWeb?",
+    "answer": "If you are on Silver plan, then you can't copy inventory items in other company. But you can create a duplicate company with all the inventory balances. And if you are on Gold or Diamond plan, then click on Gold Plan on Dashboard > click on Export/Import Items/Services in excel > click on Download existing items in excel. Now open other company > Go to same feature, and this time, upload the downloaded excel file > click on Start Import."
+  },
+  {
+    "id": "GEN05",
+    "question": "I want to remove company from Dropbox.",
+    "answer": "Go to Dropbox folder > Apps > BookKeeperApp > remove the company file from there."
+  },
+  {
+    "id": "GEN06",
+    "question": "I want to change registered email ID but don't have access to old ID.",
+    "answer": "WhatsApp us from the registered mobile number to update the email ID."
+  },
+  {
+    "id": "GEN07",
+    "question": "Wants to create a local company.",
+    "answer": "Go to Settings > Windows Specific Settings > BookKeeper Open/Create Company Setting, and enable 'Allow Local Company Creation'. Then, while creating a company, select 'Local' as the data location instead of 'BKWeb'."
+  },
+  {
+    "id": "GEN08",
+    "question": "EWay bill API got exhausted.",
+    "answer": "Send an email from your registered email ID to support@bookkeeperapp.net and request to transfer unused E-Invoice API credits to EWay bill. Make sure to include your mobile number in the message."
+  },
+  {
+    "id": "GEN09",
+    "question": "Wants to make a new Android device as the admin device.",
+    "answer": "1. Open Book Keeper with admin credentials. Click on 'Continue as User' 2. Tap on the top bar that shows 'Logged in as User (MOB1/iOS1)'. 3. A screen will appear showing the current admin device. 4. If you’ve lost access to the admin device, tap on the caption 'Devices associated with this company' 10–15 times. A hidden dialog will appear—tap 'Yes' to make the current device the new admin."
+  },
+  {
+    "id": "GEN10",
+    "question": "I want to make my new/other Windows PC as admin device.",
+    "answer": "1. Open Book Keeper with admin credentials (company credentials), and click on 'Continue as User'. 2. On top, there will be user icon, click on it. 3. A window will open, that will show which device is admin. 4. In case admin device is lost or you don't have access to it, press Shift+Alt+Ctrl+F10 on Windows. A new dialog will open, press on Yes to make the current device admin. 5. Restart Book Keeper.  For more details, please go to https://book-keeper-app.document360.io/docs/multiple-admin-at-same-time-use-book-keeper-on-multiple-devices-at-same-time-not-able-to-sync-unauthorized-error-not-able-to-edit-anything-m"
+  },
+  
+  {
+    "id": "GEN11",
+    "question": "I forgot my company login password, how to reset it?",
+    "answer": " Windows: Enter the wrong admin password 3 times, then click 'Forgot Password'. A reset link will be sent to your registered email.\n Android (v9.0.0 & above): Go to Company List > Click on company name > Forgot Password\n Android (older version): 3 dots > Backup Company > Email to support@bookkeeperapp.net\n iOS: Swipe left on company name > Backup on Email > enter support@bookkeeperapp.net"
+  },
+  {
+    "id": "GEN12",
+    "question": "How to Make Accounts Active/InActive in Book Keeper?",
+    "answer": "Only available for Diamond Plan users. On Windows: Dashboard > All Accounts > Select account > Edit > Set status to Active or Inactive. Filter using: Diamond Plan > Display Active/Inactive Accounts.\nOn Android: Dashboard > Customers/Suppliers > 3 dots next to account name > Edit > Set to Active/Inactive."
+  },
+  {
+    "id": "GEN13",
+    "question": "How to make Inventory Items as Active/Inactive. I want to delete inventory items but it says Item cannot be deleted.",
+    "answer": "If an item is used in sale/purchase vouchers, it cannot be deleted. Instead, mark it as Inactive.\nOn Windows: Dashboard > Inventory Item > Select 'All' in Active Items dropdown > Mark 'False' to make inactive, 'True' to make active.\nOn Android: Dashboard > Inventory Items > 3 lines top right > Edit Active/Inactive > Apply > Unselect items to mark inactive."
+  },
+  {
+    "id": "GEN14",
+    "question": "How can I import Items or Services from Excel in Windows?",
+    "answer": "For Local company: Dashboard > Tools > Import item/services from Excel\nFor BKWeb company: Gold Plan > Export/Import Item/Service from Excel\nSteps:\n1. Select Inventory Items/Services\n2. Download sample Excel\n3. Fill in data\n4. Browse and import file\n5. Use 'Update Existing Items' or 'Ignore Existing Items'\n6. Click Start Import"
+  },
+  {
+    "id": "GEN15",
+    "question": "How can I import Items or Services from Excel in Bookkeeper Android?",
+    "answer": "On Adroid, this feature is available only for Local/Dropbox companies: On Dashboard, right swipe on the screen > Tools > Import from Excel > Choose 'Import Items'"
+  },
+  {
+    "id": "GEN16",
+    "question": "How can I import Customers or Suppliers from Excel in Bookkeeper Windows?",
+    "answer": "For Local company: Dashboard > Tools > Import Customers/Suppliers from Excel\nFor BKWeb company: Gold Plan > Export/Import Customers/Suppliers from Excel\nSteps:\n1. Select Customer/Supplier/Other Accounts/Employee\n2. Download sample Excel file\n3. Fill in data\n4. Upload file\n5. Click Start Import"
+  },
+  {
+    "id": "GEN17",
+    "question": "How can I import Customers or Suppliers from Excel in Bookkeeper Android?",
+    "answer": "On Adroid, this feature is available only for Local/Dropbox companies: On Dashboard, right swipe on the screen > Tools > Import from Excel > Choose 'Import Accounts'"
+  },
+  {
+    "id": "GEN18",
+    "question": "How can I import Transactions from Excel in Bookkeeper?",
+    "answer": "Transaction import is only available for Local or Dropbox-based companies on Windows. This feature is not available in Android and iOS.\nSteps:\n1. Dashboard > Tools > Import Transaction from Excel\n2. Select Import Type\n3. Download sample Excel file\n4. Fill the file. Make sure you do not chnage any column headers.\n5. Import and verify."
+  },
+  
+  {
+    "id": "GEN19",
+    "question": "How to turn on Warehousing feature on Windows and Android?",
+    "answer": "Windows: Settings > Company Settings > Features > Enable Warehousing\nAndroid: ☰ menu > Settings > Enable Warehousing"
+  },
+  {
+    "id": "GEN20",
+    "question": "How to Add Warehouse or Change Warehouse name on Android device",
+    "answer": "On the Dashboard, go to Inventory Items > Tap the three lines on the top right corner > Select 'Warehouse' > Tap 'Apply' > From here, you can change the name of an existing warehouse or add a new one."
+  },
+  {
+    "id": "GEN21",
+    "question": "How can I track stock/inventory for each warehouse or location or godown?",
+    "answer": "To track your stock in different warehourses, folow these steps:\nOn Windows: Go to Inventory Summary Report > Turn on 'Display Warehouse Details'. It will show you the stock/inventory in each warehouse.\n\nOnAndroid: Go to All Reports > Under Inventory Reports section, open Inventory Summary report > click on Settings icon at the bottom of the report > scroll down to the bottom and tick 'Warehouse Details' option. In the Details Type (present just below the Warehouse Details option), you can select 'Item-wise Warehouse Summary' or 'Warehouse-wise Item Summary' option as per your needs."
+  },
+  
+  {
+    "id": "GEN22",
+    "question": "How to create multi-admin on book keeper?",
+    "answer": "To create multiple admins in Book Keeper, please mail us at support@bookkeeperapp.net from your registered email address."
+  },
+  {
+    "id": "GEN23",
+    "question": "How can I increase the number of decimal points in quantity?",
+    "answer": "To increase the number of decimal points in quantity on Windows, go to Settings > General Settings > Decimal Place, and adjust the number of decimal points as needed."
+  },
+  {
+    "id": "GEN24",
+    "question": "How can I change the email ID in my company?",
+    "answer": "To change the email ID associated with your company, go to Settings > Company Settings > Change Email ID from there."
+  },
+  {
+    "id": "GEN25",
+    "question": "How can I show/display/hide the salesman/salesperson field from the voucher?",
+    "answer": "On Windows, To show/display/hide the salesperson field from vouchers, go to Settings > Template Settings > Header > Tick/untick the option for Salesperson.\nIf you want to hide the existing Salesperson from the Salesperson field, then just go to Settings > Transactions Settings > Misc. > untick your salesperson name that you want to hide/remove.\nOn Android, go to Settings > Template Settings > Header > Tick/untick the option for Salesperson.\nIf you want to hide the existing Salesperson from the Salesperson field, then just go to Settings > Transaction Settings > Choose Sales Person > untick your salesperson name that you want to hide/remove."
+  },
+  {
+    "id": "GEN26",
+    "question": "How can I increase the font size in the invoice?",
+    "answer": "To increase the font size in invoices, go to Settings > Template Settings, and adjust the font size from there.\nFor Android/iOS, go to Settings > Template Settings > Templates > Font Size (PDF) and adjust the font size as needed."
+  },
+  {
+    "id": "GEN27",
+    "question": "How can I show a 'Paid' stamp in the invoice?",
+    "answer": "To display a 'Paid' stamp on invoices, go to Settings > Template Settings > Misc Settings, and enable the option for Show Paid Stamp in Invoice.\n This is only available in Windows."
+  },
+  {
+    "id": "GEN28",
+    "question": "How can I enter bank details in the invoice?",
+    "answer": "To include bank details in the invoice, go to Settings > Template Settings > Footer > Invoice Footer, and enter the bank information there."
+  },
+  {
+    "id": "GEN29",
+    "question": "How can I create a user with specific rights? How to create Multiple Users?",
+    "answer": "To create a user with specific access rights, go to Settings > User Management. While creating the user, you can assign the desired permissions and access rights as needed."
+  },
+  {
+    "id": "GEN30",
+    "question": "How can I change my bookkeeper subscription password?",
+    "answer": "To change your subscription password, visit [www.bookkeeperapp.net](https://www.bookkeeperapp.net), log in with your credentials, click on Welcome at the top, and select Change Password from the dropdown menu."
+  },
+  {
+    "id": "GEN31",
+    "question": "How can I add or reduce stock or adjust inventory in bookkeeper?",
+    "answer": "To add or reduce stock, follow these steps:\nOn Windows, go to Transactions > Inventory Adjustment > Create. Then select either Add or Reduce, choose the item, and enter the quantity accordingly.\nOn Android, click on + icon on Dashboard > Choose Inventory Adjustment. Then select either Add or Reduce, choose the item, and enter the quantity accordingly."
+  },
+  {
+    "id": "GEN32",
+    "question": "How can I show the invoice number in receipts, payments?",
+    "answer": "To display the invoice number in receipts, payments, go to Settings > Template Settings > Misc, and enable the option Show Invoice Number in Receipt/Payment."
+  }
+
+]

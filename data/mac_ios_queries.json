@@ -1,0 +1,32 @@
+[
+    {
+        "id": "IOS01",
+        "question": "How to use Book Keeper application on MacBook/iMac?",
+        "answer": "Book Keeper is currently designed for Windows and does not natively support macOS. However, you can still use Book Keeper on a Mac by installing Windows using one of the following methods:\n\n1. Parallels Desktop (Recommended):\n- Download and install Parallels Desktop: https://www.parallels.com/\n- Follow the guide to install Windows: https://kb.parallels.com/4729\n- Install Book Keeper: https://www.youtube.com/watch?v=pDA547rqHiU\n- Book Keeper will be fully functional.\nVideo Tutorial: https://www.youtube.com/watch?v=9oQT8HDeIu8\n\n2. Boot Camp (Recommended):\n- Use macOS's inbuilt Boot Camp to install Windows: https://support.apple.com/en-in/boot-camp\n- Install Book Keeper: https://www.youtube.com/watch?v=pDA547rqHiU\n\n3. Virtual Machine (VMware Fusion):\n- Download VMware Fusion: https://www.vmware.com/in/products/fusion.html\n- Follow the guide to install Windows: https://docs.vmware.com/en/VMware-Fusion/10.0/com.vmware.fusion.using.doc/GUID-F2874B79-A32A-4B83-914F-9838372D47CD.html\n- Install Book Keeper: https://www.youtube.com/watch?v=pDA547rqHiU\n\nNote: All options require you to install Windows."
+    },
+    {
+        "id": "IOS02",
+        "question": "How to make a new iOS phone as the admin device.",
+        "answer": "1. Open Book Keeper with admin credentials, and click on 'Continue as User' 2. Tap on the top bar that shows 'Logged in as User (MOB1/iOS1)'. 3. A screen will appear showing the current admin device. 4. If you've lost access to the admin device, tap on the caption 'Devices associated with this company' 10–15 times. A hidden dialog will appear—tap 'Yes' to make the current device the new admin."
+    },
+    {
+        "id": "IOS03",
+        "question": "How to generate E-Way Bill from iOS device?",
+        "answer": "Book Keeper iOS does not supports E-Way Bill Generation. Please use Windows or Android to generate E-Way bill."
+    },
+    {
+        "id": "IOS04",
+        "question": "How to generate E-invoice from iOS device?",
+        "answer": "Book Keeper iOS does not supports E-invoice Generation. Please use Windows or Android to generate E-invoice."
+    },
+    {
+        "id": "IOS05",
+        "question": "Want single series option in iOS.",
+        "answer": "Single series is available in Windows and Android only."
+    },
+    {
+        "id": "IOS06",
+        "question": "How can I generate the GSTR reports in Excel or JSON format from the iOS application?",
+        "answer": "Currently, it is not possible to download the GSTR report in Excel or JSON format from the iOS application. On iOS, you can only download the report in HTML or PDF format."
+    }
+]

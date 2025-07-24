@@ -1,0 +1,118 @@
+[
+    {
+        "id": "GEN33",
+        "question": "How to transfer APIs in the application? I want to transfer eway and einvoice API to GST API.",
+        "answer": "Please mail the Support Team on support@bookkeeperapp.net if you want to transfer your APIs.\nAlso, you can purchase more APIs from this link: https://pages.razorpay.com/pl_KlRzq50thSEgbO/view"
+    },
+    {
+        "id": "GEN34",
+        "question": "I am unable to open reports or invoices in the windows application. When I try to open a report or invoice, it shows blank page in windows",
+        "answer": "On Dashboard, go to Settings > Window Specific Settings > tick on Use Internet explorer based browser."
+    },
+    {
+        "id": "GEN35",
+        "question": "I want to change my device to use the application. How to use bookkeeper application in my new device?",
+        "answer": "First, go to www.bookkeeperapp.net > Login with your subscription email ID and password > After logging, you'll see 'Welcome' on top right, click on it > Click My Devices > Logout your old device from there.\nNow, install Book Keeper on your new device and login with the same email ID and password.\nIf your company is on BKWeb, then it will automatically be displayed on your new device. If yur company is on Dropbox, then you have to install Dropbox on your new device and login with the same dropbox credentials as in your previous device.\nIf your company is Local, you have to transfer your company file in new device manually. You can do this by copying the company file from your old device to the new one via a pen drive or email."
+    },
+    {
+        "id": "GEN36",
+        "question": "How to use Cheque Manager in Book Keeper?",
+        "answer": "Book Keeper provides a Cheque Manager feature on Windows to help you manage and track post-dated cheques (PDC) and other cheque transactions. Here's how to use it:\n\n1. **Access Cheque Manager:**\n   - Go to **Tools > Cheque Manager**.\n\n2. **View Cheques:**\n   - The Cheque Manager window will display both inward (received) and outward (issued) cheques.\n   - If you've created a Receipt or Payment voucher using 'Bank', then select Cheque as mode of payment, it will automatically appear here with status marked as **New**.\n\n3. **Update Cheque Status:**\n   - You need to manually change the cheque status to **Cleared**, **Deposited**, or **Bounced** under the 'Select New Status' column once processed.\n\n4. **Filter Options:**\n   - You can apply filters to view all cheques, only new cheques, cleared ones, or bounced ones.\n\n5. **Important Note:**\n   - Marking a cheque as **Bounced** does **not** affect account balances.\n   - To reverse the financial effect, you must create a separate **Journal Entry** to return the bounced amount.\n\nCheque Manager simplifies tracking and ensures timely action on cheque clearances or follow-ups."
+    },
+    {
+    "id": "GEN37",
+    "question": "What is a Stock Account in the application and how to use it?",
+    "answer": "If you do not want to manage individual inventory items in Book Keeper, you can use a Stock Account to manually track stock values. Here's how to use it:\n\n1. **Enable 'Accounts Only' Mode:**\n   - Go to **Company Settings** and enable **'Accounts Only'**.\n\n2. **Access Stock Account:**\n   - Go to **Inventory > Stock Account**.\n\n3. **Create a Stock Account Entry:**\n   - Add a new stock account by entering the name and stock value as on a specific date.\n\n4. **Maintain Historical Records:**\n   - You can add multiple stock values on different dates. These will be reflected in your financial reports like Balance Sheet and Profit & Loss.\n\nUsing Stock Account is useful when you don’t need item-level tracking but still want to include stock value in your accounts."
+  },
+
+  {
+    "id": "GEN38",
+    "question": "How to add different branch addresses on invoice in the application?",
+    "answer": "To display multiple branch addresses on your invoice, follow these steps:\n\n1. Go to **Settings > Company Settings**.\n\n2. In the **Address** field, type your branch addresses using HTML tags:\n   - Use `<br>` to insert a new line.\n   - Use `<b>` and `</b>` to make text bold.\n\n**Example (without bold):**\n```\nBranch1: 16-17 L Block, Connaught Place, New Delhi<br>Branch2: SH26, Square Mall, Alwar Bypass, Rajasthan\n```\n\n**Example (with bold branch names):**\n```\n<b>Branch1:</b> 16-17 L Block, Connaught Place, New Delhi<br><b>Branch2:</b> SH26, Square Mall, Alwar Bypass, Rajasthan\n```\n\nThis will ensure that both branch addresses are shown clearly and professionally on your invoice."
+  },
+  {
+    "id": "GEN39",
+    "question": "Can we create our own template in Book Keeper? | Customize Template | New Template | Invoice Template",
+    "answer": "Yes, Book Keeper allows you to create and customize your own invoice templates using HTML and CSS. Go to Settings > Template Settings > Customize. Use <style> and </style> tags to write your custom CSS, which will override Book Keeper's default styles.\n\nExamples:\n\n1. **Increase Company Name Size**\n<style>\n.company-heading { font-size: 22px; text-align: center; }\n</style>\n\n2. **Change Table Heading Color**\n<style>\n#itemTable th {\n  font-size: 16px;\n  border: 1px solid #FF0000;\n  border-radius: 1px 0 0;\n  text-align: center;\n  font-weight: bold;\n  background-color: green;\n  color: white;\n}\n</style>\n\n3. **Custom Footer with Bank Details and Signatures**\nCustomization:\n<style>\n.cellborder { border: 1px solid #000; }\n.footerTable { border-collapse: collapse; }\n</style>\n\nFooter:\n<br><br>\n<table border=1 cellspacing=2 width=100% class=footerTable>\n<tr><td rowspan=4 class=cellborder>NOTE</td><td class=cellborder>1. All Payment should be made by NEFT/RTGS/ECS/Crossed Cheque drawn in favour of Creative Private Limited only.</td></tr>\n<tr><td class=cellborder>2. Payment delay will incur interest @5% P.M.</td></tr>\n<tr><td class=cellborder>3. Company not liable for unauthorized payees.</td></tr>\n<tr><td class=cellborder>4. Disputes subject to Bangalore jurisdiction.</td></tr>\n</table>\n\n<table border=1 cellspacing=2 width=100% class=footerTable>\n<tr><td rowspan=3 class=cellborder>BANK DETAIL<br>(For RTGS/NEFT/ECS)</td><td align=center colspan=4>Creative Private Limited</td></tr>\n<tr><td class=cellborder>Account No</td><td class=cellborder>123456789</td><td class=cellborder>IFSC Code</td><td class=cellborder>PYTM0123456</td></tr>\n<tr><td class=cellborder>Bank Name</td><td class=cellborder>SBI Bank</td><td class=cellborder>Branch</td><td class=cellborder>Bangalore</td></tr>\n</table>\n\n<br><br>\n<table width=100%>\n<tr><td width=30% align=center>Prepared By</td><td width=30% align=center>Checked By</td><td width=40% align=center>Authorized Signatory</td></tr>\n</table>\n\n4. **Add Border Lines After Each Item**\n<style>\n#itemTable td {\n  border-left: 1px solid #000;\n  border-right: 1px solid #000;\n  border-top: 1px solid #000;\n  border-bottom: 1px solid #000;\n}\n</style>\n\n5. **Center the Company Logo (Template 1-3 only)**\n<style>\n.company-image { text-align: center; }\n.company-image img { float: none; position: relative; }\n</style>"
+  },
+  {
+    "id": "GEN40",
+    "question": "How to create a new unit of measure or edit or delete the unit of measure in Android?",
+    "answer": "To create or edit Units of Measure on an Android tablet:\n\n1. Open your company.\n2. Go to Inventory Items.\n3. Tap the filter icon on the top right (three horizontal lines).\n4. Select 'Units of measure' in the 'Filter By' section.\n5. Tap 'Apply'.\n\n- To create a new unit, tap 'Add Unit of Measure'.\n- To edit an existing unit, tap on the unit and make your changes.\n- To delete a unit, tap on it and select delete (only if it's not already used in a voucher).\n\nNote: Units of measure that are already used in transactions cannot be deleted."
+  },
+  {
+    "id": "GEN41",
+    "question": "How to change Inventory Valuation Method in the application?",
+    "answer": "To change the inventory valuation method in Book Keeper:\n\n1. **Windows:**\n   - Go to the Dashboard > Settings > Transaction Settings > Report Settings\n   - Choose your preferred Inventory Valuation Method.\n\n2. **Android:**\n   - Open your company file.\n   - Tap the three horizontal lines on the top-left (or swipe right).\n   - Go to Settings > General Settings > Inventory Valuation Method.\n   - Select the desired method and press Save.\n\n3. **iOS**\n  - Go to Settings > General Settings > Inventory Valuation method."
+  },
+  {
+    "id": "GEN42",
+    "question": "Difference in Opening Balance in Balance Sheet & Trial Balance report",
+    "answer": "At the beginning of a financial year, the total assets should equal total liabilities to ensure proper balancing. \n\nIf there is a mismatch between the opening balances in the Balance Sheet and the Trial Balance, it typically means that:\n\n1. You may have incorrectly entered opening balances while shifting from another software.\n2. Some account balances might be missing or inaccurately copied.\n\n**Recommended Solution:**\n- Review all account balances in the Chart of Accounts.\n- Go to each account and verify that the opening balances are correctly entered.\n- Make sure that every debit entry has a corresponding credit to maintain balance.\n\nCorrecting the balances will align the Trial Balance and Balance Sheet accurately."
+  },
+  {
+    "id": "GEN43",
+    "question": "How to use POS System in the application | Point of Sale",
+    "answer": "Book Keeper Windows supports a Point of Sale (POS) feature that enables faster billing, ideal for retail environments. \n\nTo enable POS:\n1. Go to **Settings > Transaction Settings > POS Settings**\n2. Enable **POS System**\n\n**Available POS Settings:**\n- Enter items first while making invoice\n- Increase quantity when adding the same item\n- Display cash tender\n- Print invoice after voucher entry\n- Enable quick receipt\n- View invoice after voucher entry\n\nThese options can be enabled or disabled based on your workflow needs to streamline billing operations.\n\n**Video Tutorials:**\n- [Quick Receipt Feature](https://youtu.be/0pHLEFFGxos?si=iOmuT-B0pQLaIW7C)\n- [POS Invoice Workflow](https://youtu.be/tpVqugcuGTI?si=sxBmtW72pg20vIeH)"
+  },
+  {
+    "id": "GEN44",
+    "question": "How To Bill Free Items To Your Customer | Accounting For Free Item | Buy One Get One Free | Scheme Offer",
+    "answer": "Free quantity refers to the items provided to customers at no cost as part of a promotional scheme (e.g., Buy One Get One Free). These items are not billed but impact stock inventory. In Book Keeper, you can manage such entries easily.\n\n**Steps to Bill Free Items in Book Keeper:**\n\n1. **Enable Free Quantity Field:**\n   - Go to **Template Settings > Item Table**\n   - Enable **Free Qty**\n\n2. **Adjust POS Settings:**\n   - Go to **Transaction Settings > POS**\n   - Disable **Increase Qty while adding the same item**\n\n3. **Create Invoice:**\n   - Go to **Transactions > Invoice > Create**\n   - Select the item being sold\n   - Enter quantity and rate normally for billed items\n   - For free items, enter quantity and set the **rate as 0**\n   - Optionally, edit item description to mention that the item was given as part of a promotional offer (e.g., \"Free under BOGO scheme\")\n\nThis ensures that billing is accurate while stock inventory reflects both sold and free quantities correctly."
+  },
+  {
+    "id": "GEN45",
+    "question": "How to check the version number of the application or see the device ID in the application?",
+    "answer": "On Windows: Open the Book Keeper application. Go to the Help menu on the top bar and click on 'About Book Keeper'. You’ll find the version number, device ID, plan type, expiry date, and subscription ID here.\nOn Android: Open your company, tap the three vertical lines (menu) on the top left, scroll down, and select 'About Book Keeper'. This section displays your app version and device ID.\non iOS: Open your company > Click on '?' icon on top right. This will show your app version and device ID."
+  },
+  {
+    "id": "GEN46",
+    "question": "How to save bill as draft in the application. If I am making a bill but want to create a new bill without closing the previous bill, how to do it?",
+    "answer": "Book Keeper has a 'Save Sales Bill as Draft' option. This feature is available on Windows for BKWeb companies only under the Gold plan. If your company is on BKWeb, you're using the application on a Windows PC, and you're on the Gold plan, then you can use this feature.\n\nTo use it: While creating a sales voucher, if you want to leave this voucher midway and create a new one, click 'Save as Draft' at the bottom right. A box will appear showing your current bill saved as draft. Now, click on 'New Invoice' at the bottom right of this box to start creating a new bill."
+  },
+  {
+    "id": "GEN47",
+    "question": "How can I share an invoice on WhatsApp?",
+    "answer": "To share an invoice via WhatsApp, follow the instructions based on your device:\n\nOn Windows:\n- Go to Dashboard > Settings > Message Settings > Configure.\n- In the new window, click “Configure for WhatsApp” at the top.\n- Enter your country prefix code (without the '+' symbol) in 'Country prefix in phone numbers'.\n- Click Save.\n- Open the invoice you want to share and select 'Share on WhatsApp'.\n- Alternative: View the invoice and click 'Share on WhatsApp'.\n\nOn Android:\n- Go to Dashboard > View All Transactions.\n- Locate the invoice and tap the Share icon.\n- Alternative: While creating the voucher, tap the Share icon next to the Save button. This will automatically save and share the voucher via WhatsApp.\n\nOn iOS:\n- View Invoice > Click on Share icon at the bottom > Select WhatsApp."
+  },
+  {
+    "id": "GEN48",
+    "question": "How can I add an additional device to my current Book Keeper subscription?",
+    "answer": "To use Book Keeper on more devices, you’ll need to add additional devices to your existing subscription.\n\nPlease contact the Book Keeper Support Team to know the pricing and the process for adding extra devices.\n\nNote: The additional device will remain valid only until your current subscription expiry date."
+  },
+  {
+    "id": "GEN49",
+    "question": "How to use Multiple discounts?",
+    "answer": "The 'Multiple Discounts' feature in Book Keeper allows you to apply layered discounts (like 10% + 5% + INR500) on invoices—common in retail or garment businesses.\n\n **How to Enable It:**\n1. Go to **Settings > Template Settings > Item Table**\n2. Enable **Multiple Discount**\n3. Optionally rename Discount fields (e.g., Scheme, Cash, Special Discount)\n4. You can also customize the width of each discount column\n\n **Applying Discounts While Invoicing:**\n- After enabling, when creating a Sales Invoice, you'll see multiple discount fields per item\n- You can use percentage (%), flat value (INR), or a mix\n- Example: 10% (first), 5% (second), INR500 (third)\n- You can also use all three as percentages (e.g., 10% + 5% + 5%)\n\n **Display Options:**\n- To show **all discounts in a single column**:\n  Go to **Settings > Template Settings > Item Table** > Enable **Display Multiple Discount in Single Column**\n- If left disabled, each discount appears in its own column\n\n **Important Notes:**\n- If Discount 1 is a fixed value (INR), then Discount 2 and 3 will be disabled\n- Use percentage in Discount 1 if you want to use all 3 discount levels\n- This feature is available in all voucher types: Sales, Purchase, Credit Note, and Debit Note\n\n **Watch Video Tutorial:** https://www.youtube.com/watch?v=L4kgzDObAv4\n\nTo use Multiple Discounts on Android, go to Settings > Template Settings > Item Table > scroll to bottom and click on Multiple Discount > tick Enable Multiple Discounts."
+  },
+  {
+    "id": "GEN50",
+    "question": "What is Initial Quantity On Hand?",
+    "answer": "Initial Quantity On Hand refers to the quantity of an item you already have in stock as of a specific date when you begin using Book Keeper. For example, if you start using Book Keeper from 1st April 2018 and you already have 500 units of a particular item (e.g., Item1) in stock on that date, you should enter 500 in the Initial Quantity On Hand field. This helps in accurately reflecting your opening inventory."
+  },
+  {
+    "id": "GEN51",
+    "question": "What is Initial Cost/Unit?",
+    "answer": "Initial Cost/Unit is the per unit cost of an item as of the date you begin using Book Keeper. It typically represents the average purchase price of the item, excluding tax. For example, if you have 500 units of an item in stock and each unit was purchased at an average rate of INR50, you should enter INR50 as the Initial Cost/Unit. This value is used to calculate the total value of opening stock, which is then reflected in your Profit & Loss statement and other financial reports. It is important to note that this field is not linked to the Default Purchase Price."
+  },
+  {
+    "id": "GEN52",
+    "question": "What is Default Sale Price?",
+    "answer": "Default Sale Price is the standard rate at which you intend to sell an item. When you select this item while creating a sales invoice, this price is automatically prefilled, making the billing process faster and more consistent. You can update the Default Sale Price at any time if your selling price changes, and all future invoices will reflect the updated rate. However, it’s important to note that changing this value does not affect past invoices, does not impact your Profit & Loss statement or other financial reports directly. The actual profit is calculated based on the rate used at the time of transaction, not the default rate. In summary, Default Sale Price is a convenience setting, not a financial reporting field."
+  },
+  {
+    "id": "GEN53",
+    "question": "What is Default Purchase Price?",
+    "answer": "Default Purchase Price is the standard rate at which you generally purchase an item. When you create a purchase entry in Book Keeper and select the item, this price is automatically prefilled to streamline data entry. It is not linked to the Initial Cost/Unit. It serves as a reference value and can be changed at the time of actual purchase. It does not impact the Balance Sheet, Profit & Loss statement, or any other financial reports. Updating this price will only affect future purchase entries, not past ones. In essence, Default Purchase Price is a convenience tool to speed up purchase recording and maintain consistency, but it does not influence financial outcomes or profitability directly."
+  },
+  {
+    "id": "GEN54",
+    "question": "What is Multiple Pricing? How to enable and use it?",
+    "answer": "Multiple Pricing allows you to maintain up to 7 different price levels for a single item based on the type of customer you are dealing with. This is particularly useful when offering different rates to various customer categories such as Retailers, Distributors, Wholesalers, or bulk buyers.\n\nTo enable Multiple Pricing:\n1. Go to Settings > Transaction Settings > Date and Rate.\n2. Enable the option 'Multiple Pricing' and select the number of pricing levels (up to 7).\n\nTo use it:\n- Go to Inventory Items and define prices for each level.\n- Then, go to Accounts > All Accounts > Customers/Debtors. Edit or create a customer and assign a default price level (e.g., Retailer).\n- When creating a sales invoice, Book Keeper will automatically fetch the price based on the customer’s assigned level.\n- For CASH customers, you can manually select the desired price level from the Buyer Details window while invoicing.\n\nThis feature streamlines pricing management, improves flexibility, and ensures accurate billing across different customer segments.\n\nCheck these video tutorials: \nFor Windows: https://youtu.be/eYzIBO_eNpk?si=ppvEqRIty_Kt9rc-\nFor Android: https://youtu.be/cW_7MS8OuW0?si=J2hLG_mdo8ulgHQH"
+  },
+  {
+    "id": "GEN55",
+    "question": "How to export or import data to Tally?",
+    "answer": "Book Keeper allows you to export your data to Tally and import masters from Tally. Here's how it works:\n\n**Export Data to Tally:**\n1. Go to **Tools > Export Masters/Transactions To Tally**.\n2. First, export **Masters** (Ledgers & Items).\n3. Then export **Transactions**.\n4. Book Keeper will generate XML files.\n5. Import these XML files into Tally using the import feature.\n\n**Import Masters from Tally:** *(Only available in Local/Dropbox companies)*\n1. Export XML files from Tally first.\n2. In Book Keeper, go to **Tools > Import From Tally**.\n3. Select XML files one by one and click **Start Import**.\n\n**Important Notes:**\n- **Transactions cannot be imported** from Tally into Book Keeper.\n- Export to Tally works on **Book Keeper Android and Windows** only.\n- Import/Export supports only **GST-enabled companies**.\n- Use the **latest version of TallyPrime** for best compatibility. Tally ERP 9 may not work properly."
+  }
+]

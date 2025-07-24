@@ -1,0 +1,7 @@
+[
+    {
+        "id": "GST01",
+        "question": "How to generate e-invoice in the application?",
+        "answer": "To generate an e-invoice in Book Keeper, the process varies depending on your device.\n\nOn Windows:\n1. Ensure you're using Book Keeper version 7.9.5 or above.\n2. Go to Settings > Company Settings > Enable E-invoice.\n3. Navigate to Transaction > Sales Invoice > View > Select invoice > E-invoice.\n4. Fill in shipping details and Pincode.\n5. Choose one of the following options:\n\n- JSON File: Click 'Generate JSON'. The file will be saved to your Desktop and must be uploaded manually to the e-invoice portal.\n\n- Auto Generate via GSP:\n   a. Create a GSP ID from the e-invoice portal.\n   b. Go to API Registration > Create API User > Choose 'Through GSP'.\n   c. Select 'Adaequare Info Private Limited' as the GSP.\n   d. Set a GSP username and password, and submit.\n   e. In Book Keeper: Sales Invoice > View > E-invoice > Auto Generate > Enter your GSP credentials.\n\nOn Android:\n1. Open your company file.\n2. Tap the 3-line menu > Settings icon > Company Settings > Enable GST > Enable E-invoice.\n3. Go to View All Transactions > Sales Invoice > Tap 3 dots > E-invoice.\n4. Tap the settings icon, enter your GSP credentials, and tap 'Auto Generate E-invoice'."
+    }
+]
