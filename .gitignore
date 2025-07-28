@@ -6,3 +6,6 @@ faq_index.pkl
 faq.json
 index.py
 terminal.py
+update_faqs.py
+data/
+chroma_storage_3/
