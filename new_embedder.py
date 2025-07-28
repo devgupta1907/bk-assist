@@ -5,7 +5,11 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import json
 import chromadb
 from sentence_transformers import SentenceTransformer
+from huggingface_hub import login
 from config import load_config
+import os
+
+login(token=os.environ["HUGGINGFACE_TOKEN"])
 
 def embed_json_to_chroma(json_path):
     config = load_config()

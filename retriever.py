@@ -3,8 +3,11 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import chromadb
 from sentence_transformers import SentenceTransformer
+from huggingface_hub import login
 from config import load_config
+import os
 
+login(token=os.environ["HUGGINGFACE_TOKEN"])
 def retrieve_similar(question, top_k=3):
     config = load_config()
     # client = chromadb.PersistentClient(path="chroma_storage_2")
