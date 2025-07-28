@@ -89,12 +89,17 @@
     {
         "id": "ISS18",
         "question": "GST is not validating. I am getting error while validating customer or supplier GST number in the application.",
-        "answer": "Please re-login with your subscription email ID and password. If this does not resolve the issue, please check if you have consumed all your GST Validation APIs. For more GST Validation APIs, please purchase more GST APIs from here: https://pages.razorpay.com/pl_KlRzq50thSEgbO/viewcontact or you can contact Book Keeper Support Team."
+        "answer": "Please re-login with your subscription email ID and password. If this does not resolve the issue, please check if you have consumed all your GST Validation APIs. For more GST Validation APIs, please purchase more GST APIs from here: `https://pages.razorpay.com/pl_KlRzq50thSEgbO/viewcontact` or you can contact Book Keeper Support Team."
     },
     {
         "id": "ISS19",
         "question": "Specifications recommended for running Book Keeper | Minimum requirements | System requirements | Recommended Mobile/Laptop",
         "answer": "**Windows PC Recommendations:**\n1. Operating System: Windows 10 or 11\n2. Processor: Intel i3 (2.4 GHz or above), i5 (Quad Core: 1.8 GHz or above), or higher\n3. RAM: 8 GB DDR3 or above\n4. Storage: 250 GB HDD or 128 GB SSD or higher\n\n**Android Phone Recommendations:**\n1. OS: Android 11 or above\n2. RAM: Minimum 6 GB (Recommended 8 GB)\n\n**iPhone Recommendations:**\n1. Device: iPhone 11 or above\n2. OS: iOS 16 or above"
+    },
+    {
+        "id": "ISS20",
+        "question": "I am unable to verify device. I am getting 'Unable to verify device'.",
+        "answer": "This error might occur due to a few reasons. Please try the following steps:\n\n1. **Check Internet Connection:** Ensure that your device is connected to the internet.\n2. **Change Internet Service Provider:** Try to change the internet connection for a while and see if this resolves the issue. There might be the case that your Internet Service Provider (ISP) is blocking the BookKeeper application.\n3. **Antivirus:** Make sure your antivirus is not blocking the BookKeeper application. If yes, then exclude BookKeeper from Antivirus list.\nIf you are using free version of antivirus, we highly recommed you to uninstall that antivirus.\n5. **Contact Support:** If the issue persists, please contact the Book Keeper Support Team for further assistance."
     }
 
 

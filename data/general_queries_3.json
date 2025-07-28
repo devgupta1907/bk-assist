@@ -1,0 +1,33 @@
+[
+{
+    "id": "GEN56",
+    "question": "Can I set Cash or any other default account in Payment vouchers or Receipt vouchers?",
+    "answer": "No, you cannot set a default account in Payment or Receipt vouchers. The default account option is only available for Sales invoices. You can set a default warehouse and default sales account for creating invoices, but not for other voucher types like Payment or Receipt.\nTo set default account in sales invoices, go to Settings > Transaction Settings > POS Settings > Set default accounts from there."
+},
+{
+    "id": "GEN57",
+    "question": "How can I edit or delete an account group in BookKeeper application?",
+    "answer": "There is no option to edit or delete an existing account group in Book Keeper. You can only create a new account group if needed."
+},
+{
+  "id": "GEN58",
+  "question": "How can I change the beginning date or start date of my company to enter predated opening balances?",
+  "answer": "To change the beginning date of your company, go to Company Settings and update the 'Financial Year From' date. This will allow you to enter opening balances dated earlier than the current company start date."
+},
+{
+  "id": "GEN59",
+  "question": "How can I restrict a user from creating backdated vouchers in BookKeeper?",
+  "answer": "You can restrict users from creating backdated vouchers by going to Settings > User Management and setting the appropriate permissions for that user."
+},
+{
+  "id": "GEN60",
+  "question": "How can I get list of all debtors or customers or suppliers or creditors with outstanding balances in BookKeeper Windows application?",
+  "answer": "Go to All Reports and search for 'Customer Supplier List'. Select the desired date range and choose 'Customers' or 'Suppliers' as needed. Make sure the 'Outstanding Balance' option is checked. Then click on 'Display' to view the report. To export it as a PDF, tap on 'Open in PDF' at the top."
+}
+
+
+
+
+
+
+]

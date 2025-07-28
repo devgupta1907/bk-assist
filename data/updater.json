@@ -1,0 +1,52 @@
+[
+    {
+        "id": "BKP01",
+        "question": "What is BookKeeper. Explain more about this software.",
+        "answer": "Book Keeper is an easy GST Billing & Accounting app/software designed for small and medium businesses. It positions itself as a complete GST/VAT Accounting Solution. It handles various aspects of business operations, including accounting, invoicing, inventory management, GST/VAT reports, and all business reports, making it suitable for tax filings. A key feature is its simplicity; it is designed to be super easy to use, requiring no complex accounting terms or prior accounting knowledge. Even a 'layman can use' it. Here are some key features of Book Keeper application:\n\n1. Accounting & Inventory Management: Users can create orders, invoices, record purchases and expenses. It offers comprehensive inventory management, including generating barcodes, managing warehouses, maintaining Bill of Materials (BOM), batch, expiry, and serial numbers.\n\n2. GST Invoicing & Filing: The software allows users to generate and file various GST Reports (GSTR1/2/3B/4/9) and create JSON files. It also facilitates e-Way bill generation with a single click. Users can generate and customize VAT/Tax reports based on their country's requirements.\n\n3. Estimates & Invoices: It enables the generation of fully customizable estimates and invoices, with plenty of available templates. These can be printed directly using Laser, Dot Matrix, or Thermal Printers, or shared via WhatsApp or Email.\n\n4. Data Sync & Multi-User: The application supports syncing across multiple devices, with data fully encrypted in transit and secured. It also allows for creating multiple users and assigning them role-based access.\n\n5. Business Analysis: Book Keeper provides in-depth analysis of a business through over more than 35 comprehensive financial reports, allowing users to measure every aspect of their business.\n\n6. Time-Saving: It aims to save users time by enabling them to create and send invoices quickly, get ready GST/VAT Reports, and smart inventory management.\n\n7. Availability: It offers a 14-day trial that is absolutely FREE, no payment information or credit card required.\n\n8.Customer Satisfaction: Book Keeper has received positive feedback from users, with many praising its ease of use and comprehensive features. It is available on multiple platforms including Windows, Android, and iOS. BookKeeper Android has over 1 Million downloads with 4.4+ rating on Google Play Store. It's iOS version has over 100K downloads with 4.5+ rating on Apple App Store.\n\n9. Support: BookKeeper emphasizes award-winning customer support, that provides assistance to users via Call, Email and WhatsApp.\n\n Check out the BookKeeper website for more information: https://bookkeeperapp.net/"
+    },
+    {
+        "id": "BKP02",
+        "question": "How to download BookKeeper application on Android, iOS, Windows?",
+        "answer": "To download BookKeeper on Android, please open Google Play Store > Search for BookKeeper Accounting Software. Or you can download from thi link: https://play.google.com/store/apps/details?id=com.bookkeeper.\n\nTo download BookKeeper on iOS, please open Apple App Store > Search for BookKeeper Accounting Software. Or you can download from this link: https://apps.apple.com/us/app/book-keeper-accounting/id564806906.\nTo download BookKeeper on Windows, please visit our website at https://bookkeeperapp.net/accounting-app-for-windows.html and follow the instructions provided."
+    },
+    {
+        "id": "BKP03",
+        "question": "What are plans and pricing of BookKeeper?",
+        "answer": "BookKeeper application provides three types of plans, namely, Silver, Gold, and Diamond plan, with Monthly, Yearly, and Lifetime (10 years) subscriptions. Each plan has different features. Compare Our Different Plans with Features & Limitations here: `https://docs.google.com/spreadsheets/d/1atXqXNebVkrQU8JD4YPK4UZ_mrqnULe0T5e_t0bE1ho/edit?usp=sharing`.\n\nFor Pricing, visit: `https://bookkeeperapp.net/subscription-3/`\n All plans include FREE Support, FREE Sync, FREE Updates, and FREE License Transfer."
+    },
+    {
+        "id": "BKP04",
+        "question": "What are the different types of subscription plans offered by BookKeeper?",
+        "answer": "Book Keeper offers three types of subscription plans based on features: Silver Plan, Gold Plan, and Diamond Plan. These plans are available with Monthly, Yearly, and Lifetime (10-year) subscription options.\nAll Book Keeper plans—Silver, Gold, and Diamond—include Free Support, Free Sync, Free Updates, and Free License Transfer.\n\nBookKeeper uses a device-based licensing model. You need to purchase a plan based on the number of devices you want to use the app on. For example:\n- 1 Android phone = 1-device plan\n- 1 Android phone + 1 Windows laptop = 2-device plan\n- 2 mobile phones + 2 Windows laptops = 4-device plan\nYou can mix and match Android, iOS, and Windows devices.\nCompare Our Different Plans with Features & Limitations: https://docs.google.com/spreadsheets/d/1atXqXNebVkrQU8JD4YPK4UZ_mrqnULe0T5e_t0bE1ho/edit?usp=sharing.\n\nFor Pricing, visit: https://bookkeeperapp.net/subscription-3/"
+    },
+    {
+        "id": "BKP05",
+        "question": "Is there a free trial available for BookKeeper?",
+        "answer": "Yes, Book Keeper offers a 14-day free trial of the Gold Plan. After the trial period, you can choose any plan depending on your requirements.\nCompare Our Different Plans with Features & Limitations: https://docs.google.com/spreadsheets/d/1atXqXNebVkrQU8JD4YPK4UZ_mrqnULe0T5e_t0bE1ho/edit?usp=sharing"
+    },
+    {
+        "id": "BKP06",
+        "question": "Can I use BookKeeper on multiple platforms like Android, iOS, and Windows?",
+        "answer": "Yes, BookKeeper supports Android, iOS, and Windows platforms. You can mix and match devices across these platforms as long as the number of devices is covered by your subscription plan."
+    },
+    {
+        "id": "BKP07",
+        "question": "What types of companies can I create in BookKeeper?",
+        "answer": "Book Keeper supports three types of companies:\n1. Local Companies – stored on your device\n2. Dropbox Companies – stored and synced via Dropbox\n3. BK Web Companies – stored on the cloud and synced automatically.\nThere is no limit on the number of Local or Dropbox Companies you can create in Book Keeper. However, BKWeb Companies have a limit depending on the plan you have purchased (Silver, Gold, or Diamond)."
+    },
+    {
+        "id": "BKP08",
+        "question": "Is there any limit on the number of companies I can create in BookKeeper?",
+        "answer": "There is no limit on the number of Local or Dropbox Companies you can create in Book Keeper. However, BKWeb Companies have a limit depending on the plan you have purchased (Silver, Gold, or Diamond).\nCompare Our Different Plans with Features & Limitations: https://docs.google.com/spreadsheets/d/1atXqXNebVkrQU8JD4YPK4UZ_mrqnULe0T5e_t0bE1ho/edit?usp=sharing"
+    },
+    {
+        "id": "BKP09",
+        "question": "What is the difference between Dropbox Sync and BKWeb Sync in BookKeeper?",
+        "answer": "Dropbox Sync in Book Keeper allows you to manually sync your company data using Dropbox. It is available on Android, iOS, and Windows. BKWeb Sync is fully automated and secure but is only available on Android and Windows (not supported on iOS)."
+    },
+    {
+        "id": "BKP10",
+        "question": "Which platforms/devices support Dropbox Sync in BookKeeper?",
+        "answer": "Dropbox Sync is supported on BookKeeper Android, BookKeeper iOS, and BookKeeper Windows."
+    }
+  ]

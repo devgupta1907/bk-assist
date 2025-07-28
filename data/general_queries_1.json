@@ -63,7 +63,7 @@
   {
     "id": "GEN13",
     "question": "How to make Inventory Items as Active/Inactive. I want to delete inventory items but it says Item cannot be deleted.",
-    "answer": "If an item is used in sale/purchase vouchers, it cannot be deleted. Instead, mark it as Inactive.\nOn Windows: Dashboard > Inventory Item > Select 'All' in Active Items dropdown > Mark 'False' to make inactive, 'True' to make active.\nOn Android: Dashboard > Inventory Items > 3 lines top right > Edit Active/Inactive > Apply > Unselect items to mark inactive."
+    "answer": "If an item is used in sale/purchase vouchers, it cannot be deleted. Instead, mark it as Inactive.\nOn Windows: Dashboard > Inventory Item > Select 'All' in Active Items dropdown > Mark 'False' to make inactive, 'True' to make active.\nOn Android: Dashboard > Inventory Items > 3 lines top right > Edit Active/Inactive > Apply > Unselect items to mark inactive.\n\nIf the inventory item is not used in any voucher, then you can delete it by going to Inventory Items > Select the item > Delete."
   },
   {
     "id": "GEN14",
@@ -72,8 +72,8 @@
   },
   {
     "id": "GEN15",
-    "question": "How can I import Items or Services from Excel in Bookkeeper Android?",
-    "answer": "On Adroid, this feature is available only for Local/Dropbox companies: On Dashboard, right swipe on the screen > Tools > Import from Excel > Choose 'Import Items'"
+    "question": "How can I import Items from Excel in Bookkeeper Android?",
+    "answer": "On the Dashboard, tap the three lines in the top-left corner and go to Tools > Import from CSV/XL > Import Items. A sample format will be shown. Make sure your CSV file matches this format. Then tap 'Select File', choose the file from your device, and your items will be imported into Book Keeper on Android."
   },
   {
     "id": "GEN16",

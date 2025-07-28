@@ -24,6 +24,13 @@ def embed_json_to_chroma(json_path):
         except Exception:
             pass
 
+        # try:
+        #     existing = collection.get(ids=[qid])
+        #     if existing["ids"]:
+        #         continue
+        # except:
+        #     pass
+
         collection.add(
             ids=[qid],
             embeddings=[embedding],
@@ -34,4 +41,4 @@ def embed_json_to_chroma(json_path):
 
 
 if __name__ == "__main__":
-    embed_json_to_chroma("data/about_bk.json")
+    embed_json_to_chroma("data/updater.json")

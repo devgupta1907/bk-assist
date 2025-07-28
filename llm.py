@@ -27,7 +27,8 @@ def generate_answer(question, contexts):
         - Do NOT use any external or prior knowledge beyond the given context.
         - DO NOT invent or assume any information.
         - DO NOT add any new information not already in the context.
-        - If the answer cannot be found in the context, respond with:
+        - If the answer contains URL Links, then do not rephrase the links. Just copy the links as it is.
+        - If the answer cannot be found or not present in the context, respond with:
         "Sorry, I do not know about this. Please contact the Support Team at support@bookkeeperapp.net or Call/WhatsApp at +91-9999176746."
 
         Output:
