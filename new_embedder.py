@@ -9,7 +9,7 @@ from huggingface_hub import login
 from config import load_config
 import os
 
-login(token=os.environ["HUGGINGFACE_TOKEN"])
+login(token=os.getenv("HUGGINGFACE_TOKEN"))
 
 def embed_json_to_chroma(json_path):
     config = load_config()

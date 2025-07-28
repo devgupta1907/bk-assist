@@ -7,7 +7,7 @@ from huggingface_hub import login
 from config import load_config
 import os
 
-login(token=os.environ["HUGGINGFACE_TOKEN"])
+login(token=os.getenv("HUGGINGFACE_TOKEN"))
 def retrieve_similar(question, top_k=3):
     config = load_config()
     # client = chromadb.PersistentClient(path="chroma_storage_2")
