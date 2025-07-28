@@ -5,18 +5,14 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import json
 import chromadb
 from sentence_transformers import SentenceTransformer
-from huggingface_hub import login
 from config import load_config
-import os
-
-login(token=os.getenv("HUGGINGFACE_TOKEN"))
 
 def embed_json_to_chroma(json_path):
     config = load_config()
-    client = chromadb.PersistentClient(path="chroma_storage_3")
+    client = chromadb.PersistentClient(path="chroma_storage_2")
     collection = client.get_or_create_collection(config["chroma_collection"])
 
-    model = SentenceTransformer("all-mpnet-base-v2")
+    model = SentenceTransformer("all-MiniLM-L6-v2")
 
     with open(json_path, "r", encoding="utf-8") as f:
         faqs = json.load(f)
