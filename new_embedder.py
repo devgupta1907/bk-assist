@@ -21,7 +21,9 @@ def embed_json_to_chroma(json_path):
         qid = faq["id"]
         question = faq["question"]
         answer = faq["answer"]
-        embedding = model.encode(question).tolist()
+        
+        combined_text = f"Question: {question}\nAnswer: {answer}"
+        embedding = model.encode(combined_text)
 
         try:
             collection.delete(ids=[qid])

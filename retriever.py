@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from config import load_config
 
 
-def retrieve_similar(question, top_k=3):
+def retrieve_similar(question, top_k=2):
     config = load_config()
     client = chromadb.PersistentClient(path="chroma_storage_2")
     # client = chromadb.PersistentClient(path="chroma_storage_3")
